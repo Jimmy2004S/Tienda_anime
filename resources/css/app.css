@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.navegacion{
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    flex-flow: row nowrap;
+    border-bottom: 1px solid rgb(255,255,255, .5);
+}
+
+.titulo-inicio{
+    height: 40rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0, .5);
+}
+
+.art-1-inicio{
+    display: flex;
+}
+    .art-1-inicio img{
+        width: 30rem;
+        margin-right: 1rem;
+    }
+
+
+.aside img{
+    width: 20rem;
+    margin-bottom: 1rem;
+}
